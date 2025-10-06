@@ -18,6 +18,6 @@ public class BallController : MonoBehaviour
         float moveZ = Input.GetAxis("Vertical");
 
         Vector3 movement = new Vector3(moveX, 0.0f, moveZ);
-        rb.AddForce(movement * moveForce);
+        rb.AddForce(movement * moveForce);                    
     }
 }
